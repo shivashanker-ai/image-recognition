@@ -35,4 +35,4 @@ src/
 
 ## Author
 
-**Shiva Shankar**
+**Shiva Shanker**
