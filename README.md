@@ -1,14 +1,38 @@
-# Image Recognition using TensorFlow
+# AI Image Recognition Project
 
-## Project Overview
-This project is an image recognition system built using Python and TensorFlow.
+This repository documents my journey of learning AI-powered Image Recognition using Python, NumPy, OpenCV, TensorFlow, and Convolutional Neural Networks (CNNs).
 
-## Technologies Used
+## Technologies
+
 - Python
-- TensorFlow
 - NumPy
-- Matplotlib
-- Pillow
+- OpenCV
+- TensorFlow
+- Git & GitHub
 
-## Status
-🚧 Under Development
+## Project Structure
+
+```
+src/
+├── module1_image_fundamentals/
+├── module2_numpy/
+├── module3_opencv/
+├── module4_image_processing/
+├── module5_tensorflow/
+├── module6_cnn/
+└── final_project/
+```
+
+## Progress
+
+- ✅ Module 1 – Image Fundamentals
+- ✅ Module 2 – NumPy for Computer Vision
+- ⏳ Module 3 – OpenCV Basics
+- ⏳ Module 4 – Image Processing
+- ⏳ Module 5 – TensorFlow
+- ⏳ Module 6 – CNN
+- ⏳ Final AI Image Recognition Project
+
+## Author
+
+**Shiva Shankar**
