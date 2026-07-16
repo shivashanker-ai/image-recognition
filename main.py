@@ -1,28 +1,20 @@
-import numpy as np
+import cv2
 
-image = np.array([
-    [1,2,3],
-    [4,5,6],
-    [7,8,9]
-])
+# Read the image
+image = cv2.imread("dataset/flower.jpg")
 
-print("Original Image:")
-print(image)
+if image is None:
+    print("Error: Image not found!")
+else:
+    # Convert to grayscale
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-# Horizontal Flip
-horizontal = np.fliplr(image)
+    print("Original Shape:", image.shape)
+    print("Grayscale Shape:", gray.shape)
 
-print("\nHorizontal Flip:")
-print(horizontal)
+    # Display both images
+    cv2.imshow("Original Image", image)
+    cv2.imshow("Grayscale Image", gray)
 
-# Vertical Flip
-vertical = np.flipud(image)
-
-print("\nVertical Flip:")
-print(vertical)
-
-# Rotate 90 Degrees
-rotated = np.rot90(image)
-
-print("\nRotate 90°:")
-print(rotated)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
