@@ -1,12 +1,11 @@
 """
 ==========================================
 Module 4 - Image Processing
-Lesson 8 - Morphological Operations
+Lesson 3 - Image Thresholding
 ==========================================
 """
 
 import cv2
-import numpy as np
 
 # Load image
 image = cv2.imread("dataset/flower.jpg")
@@ -15,23 +14,18 @@ if image is None:
     print("Error: Image not found!")
     exit()
 
-# Convert to Grayscale
+# Convert to grayscale
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-# Binary Threshold
+# Apply Binary Threshold
 _, binary = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
 
-# Kernel
-kernel = np.ones((7,7), np.uint8)
-
-# Morphological Opening
-opening = cv2.morphologyEx(binary, cv2.MORPH_OPEN, kernel)
-
-# Display Images
+# Display images
+cv2.imshow("Original Image", image)
+cv2.imshow("Grayscale Image", gray)
 cv2.imshow("Binary Image", binary)
-cv2.imshow("After Opening", opening)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-print("Lesson 8 Completed Successfully!")
+print("Lesson 3 Completed Successfully!")
