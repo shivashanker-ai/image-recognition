@@ -1,12 +1,11 @@
 """
 ==========================================
 Module 5 - Image Transformations
-Lesson 4 - Image Translation
+Lesson 3 - Image Rotation
 ==========================================
 """
 
 import cv2
-import numpy as np
 
 # Load image
 image = cv2.imread("dataset/flower.jpg")
@@ -15,26 +14,12 @@ if image is None:
     print("Error: Image not found!")
     exit()
 
-# Translation values
-tx = 100   # Move right
-ty = 50    # Move down
-
-# Translation matrix
-M = np.float32([
-    [1, 0, tx],
-    [0, 1, ty]
-])
-
-# Apply translation
-translated = cv2.warpAffine(
-    image,
-    M,
-    (image.shape[1], image.shape[0])
-)
+# Rotate image by 90 degrees clockwise
+rotated = cv2.rotate(image, cv2.ROTATE_90_CLOCKWISE)
 
 # Display images
 cv2.imshow("Original Image", image)
-cv2.imshow("Translated Image", translated)
+cv2.imshow("Rotated Image", rotated)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
