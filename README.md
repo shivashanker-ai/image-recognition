@@ -4,23 +4,28 @@
 
 ---
 
-## 📖 About the Project
+# 📖 About the Project
 
 This repository is a structured learning project focused on **Computer Vision** and **Artificial Intelligence**.
 
-The goal is not only to learn the theory but also to implement every concept through practical Python programs using OpenCV and NumPy.
+The goal is not only to learn the theory but also to implement every concept through practical Python programs using OpenCV, NumPy, and TensorFlow.
 
 Every module builds upon the previous one, gradually progressing from image fundamentals to deep learning and real-world AI applications.
+
+This repository documents my journey of learning Computer Vision step-by-step and building a strong foundation for becoming an AI Engineer.
 
 ---
 
 # 🎯 Project Goals
 
 - Learn how computers understand digital images
+- Understand image representation and pixel data
 - Master NumPy for image manipulation
 - Build a strong foundation in OpenCV
 - Learn image preprocessing techniques
 - Understand image transformations
+- Learn advanced image filtering techniques
+- Understand feature extraction concepts
 - Build AI models using TensorFlow
 - Learn Convolutional Neural Networks (CNNs)
 - Develop real-world Computer Vision projects
@@ -30,27 +35,33 @@ Every module builds upon the previous one, gradually progressing from image fund
 
 # 🚀 Features
 
-- Step-by-step learning roadmap
-- Well-structured modules
+- Step-by-step Computer Vision roadmap
+- Well-structured learning modules
 - Beginner-friendly explanations
-- Practical OpenCV examples
+- Practical Python implementations
+- OpenCV image processing examples
+- NumPy-based image manipulation
 - Real-world Computer Vision concepts
 - Clean project organization
 - Continuous GitHub updates
-- Learning documented publicly
+- Learning journey documented publicly
 
 ---
 
 # 📚 Completed Modules
 
+---
+
 ## ✅ Module 1 – Image Fundamentals
 
-Topics Covered
+### Topics Covered
 
 - What is an Image?
+- Digital Images
 - Pixels
 - Pixel Values
 - RGB Images
+- Grayscale Images
 - Image Shape
 - Height, Width & Channels
 - Images as NumPy Arrays
@@ -60,12 +71,14 @@ Topics Covered
 
 ## ✅ Module 2 – NumPy for Images
 
-Topics Covered
+### Topics Covered
 
+- Introduction to NumPy
 - Creating NumPy Arrays
 - Image Arrays
-- Indexing
-- Slicing
+- Array Shape
+- Array Indexing
+- Array Slicing
 - Mathematical Operations
 - Copy vs View
 - Image Manipulation
@@ -75,25 +88,30 @@ Topics Covered
 
 ## ✅ Module 3 – OpenCV Basics
 
-Topics Covered
+### Topics Covered
 
 - Introduction to OpenCV
+- Installing OpenCV
 - Reading Images
 - Displaying Images
 - Saving Images
 - Image Properties
+- Image Width, Height & Channels
 - Image Resizing
 - Image Cropping
 - Color Space Conversion
-  - BGR
-  - RGB
-  - Grayscale
+
+Concepts:
+
+- BGR
+- RGB
+- Grayscale
 
 ---
 
 ## ✅ Module 4 – Image Processing
 
-Topics Covered
+### Topics Covered
 
 - Introduction to Image Processing
 - Image Filtering
@@ -108,7 +126,7 @@ Topics Covered
 
 ## ✅ Module 5 – Image Transformations
 
-Topics Covered
+### Topics Covered
 
 - Introduction to Image Transformations
 - Image Resizing
@@ -121,9 +139,25 @@ Topics Covered
 
 ---
 
+## ✅ Module 6 – Advanced Image Filtering
+
+### Topics Covered
+
+- Introduction to Image Filtering
+- Convolution Concept
+- Kernels and Filters
+- Averaging Filter
+- Gaussian Filter
+- Median Filter
+- Bilateral Filter
+- Edge Detection
+- Canny Edge Detection
+- Complete Image Filtering Pipeline
+
+---
+
 # 🚧 Upcoming Modules
 
-- ⏳ Module 6 – Advanced Image Filtering
 - ⏳ Module 7 – Feature Detection
 - ⏳ Module 8 – Deep Learning with TensorFlow
 - ⏳ Module 9 – Convolutional Neural Networks (CNNs)
@@ -158,7 +192,8 @@ image-recognition/
 │   ├── module2_numpy/
 │   ├── module3_opencv/
 │   ├── module4_image_processing/
-│   └── module5_image_transformations/
+│   ├── module5_image_transformations/
+│   └── module6_image_filtering/
 │
 ├── main.py
 ├── requirements.txt
@@ -229,28 +264,33 @@ python main.py
 # 📈 Project Progress
 
 ```
-██████████████████████████████████████████████████░░░░░░░░░░
+██████████████████████████████████████████████████████░░░░░░
 ```
 
-✅ Module 1
+## Completed
 
-✅ Module 2
+✅ Module 1 – Image Fundamentals
 
-✅ Module 3
+✅ Module 2 – NumPy for Images
 
-✅ Module 4
+✅ Module 3 – OpenCV Basics
 
-✅ Module 5
+✅ Module 4 – Image Processing
 
-⏳ Module 6
+✅ Module 5 – Image Transformations
 
-⏳ Module 7
+✅ Module 6 – Advanced Image Filtering
 
-⏳ Module 8
 
-⏳ Module 9
+## Upcoming
 
-⏳ Module 10
+⏳ Module 7 – Feature Detection
+
+⏳ Module 8 – Deep Learning with TensorFlow
+
+⏳ Module 9 – CNNs
+
+⏳ Module 10 – Real-world AI Projects
 
 ---
 
@@ -263,12 +303,13 @@ Through this project I am gaining practical experience in:
 - OpenCV
 - NumPy
 - TensorFlow
+- Image Filtering
 - Image Preprocessing
 - Deep Learning
 - CNNs
 - AI Model Development
-- Git & GitHub Workflow
 - Python Programming
+- Git & GitHub Workflow
 
 ---
 
@@ -284,7 +325,7 @@ Through this project I am gaining practical experience in:
 
 ✔ Image Transformations
 
-⬜ Advanced Image Filtering
+✔ Advanced Image Filtering
 
 ⬜ Feature Detection
 
@@ -293,6 +334,19 @@ Through this project I am gaining practical experience in:
 ⬜ CNNs
 
 ⬜ Real-world AI Applications
+
+---
+
+# 🔄 Development Workflow
+
+This project follows a continuous learning and development workflow:
+
+1. Learn Computer Vision concepts
+2. Implement concepts using Python
+3. Test and improve programs
+4. Document learning progress
+5. Commit changes using Git
+6. Push updates to GitHub
 
 ---
 
@@ -310,14 +364,26 @@ Suggestions, improvements, and constructive feedback are always welcome.
 
 Aspiring AI Engineer passionate about Computer Vision, Deep Learning, and Artificial Intelligence.
 
-GitHub
+GitHub:
 
 https://github.com/shivashanker-ai
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
 If you found this repository useful or interesting, consider giving it a ⭐.
 
 It motivates me to continue documenting my AI learning journey and building more open-source projects.
+
+---
+
+# 🚀 Future Vision
+
+The goal of this project is to transform this learning repository into a complete Computer Vision portfolio containing:
+
+- AI image recognition systems
+- Deep learning models
+- CNN-based applications
+- Real-world Computer Vision projects
+- End-to-end AI solutions
