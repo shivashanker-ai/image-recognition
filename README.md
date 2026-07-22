@@ -12,7 +12,7 @@ The goal is not only to learn the theory but also to implement every concept thr
 
 Every module builds upon the previous one, gradually progressing from image fundamentals to deep learning and real-world AI applications.
 
-This repository documents my journey of learning Computer Vision step-by-step and building a strong foundation for becoming an AI Engineer.
+This repository documents my journey of learning Computer Vision step-by-step while building a strong foundation for becoming an AI Engineer.
 
 ---
 
@@ -24,8 +24,9 @@ This repository documents my journey of learning Computer Vision step-by-step an
 - Build a strong foundation in OpenCV
 - Learn image preprocessing techniques
 - Understand image transformations
-- Learn advanced image filtering techniques
-- Understand feature extraction concepts
+- Master image filtering techniques
+- Learn feature detection and feature matching
+- Understand image segmentation
 - Build AI models using TensorFlow
 - Learn Convolutional Neural Networks (CNNs)
 - Develop real-world Computer Vision projects
@@ -36,11 +37,12 @@ This repository documents my journey of learning Computer Vision step-by-step an
 # 🚀 Features
 
 - Step-by-step Computer Vision roadmap
-- Well-structured learning modules
 - Beginner-friendly explanations
 - Practical Python implementations
 - OpenCV image processing examples
 - NumPy-based image manipulation
+- Feature Detection techniques
+- Image Recognition using ORB
 - Real-world Computer Vision concepts
 - Clean project organization
 - Continuous GitHub updates
@@ -139,13 +141,12 @@ Concepts:
 
 ---
 
-## ✅ Module 6 – Advanced Image Filtering
+## ✅ Module 6 – Image Filtering
 
 ### Topics Covered
 
 - Introduction to Image Filtering
-- Convolution Concept
-- Kernels and Filters
+- Convolution
 - Averaging Filter
 - Gaussian Filter
 - Median Filter
@@ -156,12 +157,34 @@ Concepts:
 
 ---
 
+## ✅ Module 7 – Feature Detection
+
+### Topics Covered
+
+- Introduction to Feature Detection
+- Harris Corner Detection
+- Shi-Tomasi Corner Detection
+- FAST Feature Detection
+- ORB Feature Detection
+- Feature Matching
+- Image Recognition using ORB
+- Complete Feature Detection Pipeline
+
+Concepts:
+
+- Keypoints
+- Descriptors
+- Hamming Distance
+- Brute Force Matcher
+- Feature Matching
+
+---
+
 # 🚧 Upcoming Modules
 
-- ⏳ Module 7 – Feature Detection
-- ⏳ Module 8 – Deep Learning with TensorFlow
-- ⏳ Module 9 – Convolutional Neural Networks (CNNs)
-- ⏳ Module 10 – Real-world AI Projects
+- ⏳ Module 8 – Image Segmentation
+- ⏳ Module 9 – Deep Learning for Computer Vision
+- ⏳ Module 10 – Final Image Recognition Project
 
 ---
 
@@ -185,15 +208,17 @@ Concepts:
 image-recognition/
 │
 ├── dataset/
-│   └── flower.jpg
+│   ├── flower.jpg
+│   └── flower2.jpg
 │
 ├── src/
 │   ├── module1_image_fundamentals/
 │   ├── module2_numpy/
-│   ├── module3_opencv/
+│   ├── module3_opencv_basics/
 │   ├── module4_image_processing/
 │   ├── module5_image_transformations/
-│   └── module6_image_filtering/
+│   ├── module6_image_filtering/
+│   └── module7_feature_detection/
 │
 ├── main.py
 ├── requirements.txt
@@ -263,34 +288,40 @@ python main.py
 
 # 📈 Project Progress
 
-```
-██████████████████████████████████████████████████████░░░░░░
-```
+**Progress: 70% Complete (7/10 Modules)**
 
-## Completed
+### ✅ Completed
 
-✅ Module 1 – Image Fundamentals
+- Module 1 – Image Fundamentals
+- Module 2 – NumPy for Images
+- Module 3 – OpenCV Basics
+- Module 4 – Image Processing
+- Module 5 – Image Transformations
+- Module 6 – Image Filtering
+- Module 7 – Feature Detection
 
-✅ Module 2 – NumPy for Images
+### ⏳ Upcoming
 
-✅ Module 3 – OpenCV Basics
+- Module 8 – Image Segmentation
+- Module 9 – Deep Learning for Computer Vision
+- Module 10 – Final Image Recognition Project
 
-✅ Module 4 – Image Processing
+---
 
-✅ Module 5 – Image Transformations
+# 💡 Skills Demonstrated
 
-✅ Module 6 – Advanced Image Filtering
-
-
-## Upcoming
-
-⏳ Module 7 – Feature Detection
-
-⏳ Module 8 – Deep Learning with TensorFlow
-
-⏳ Module 9 – CNNs
-
-⏳ Module 10 – Real-world AI Projects
+- Python Programming
+- NumPy
+- OpenCV
+- Image Processing
+- Image Transformations
+- Image Filtering
+- Feature Detection
+- Feature Matching
+- Image Recognition
+- Computer Vision
+- Git & GitHub
+- Software Development Workflow
 
 ---
 
@@ -302,12 +333,14 @@ Through this project I am gaining practical experience in:
 - Digital Image Processing
 - OpenCV
 - NumPy
-- TensorFlow
+- Image Processing
+- Image Transformations
 - Image Filtering
-- Image Preprocessing
+- Feature Detection
+- Feature Matching
+- Image Recognition
+- TensorFlow
 - Deep Learning
-- CNNs
-- AI Model Development
 - Python Programming
 - Git & GitHub Workflow
 
@@ -325,15 +358,15 @@ Through this project I am gaining practical experience in:
 
 ✔ Image Transformations
 
-✔ Advanced Image Filtering
+✔ Image Filtering
 
-⬜ Feature Detection
+✔ Feature Detection
 
-⬜ Deep Learning
+⬜ Image Segmentation
 
-⬜ CNNs
+⬜ Deep Learning for Computer Vision
 
-⬜ Real-world AI Applications
+⬜ Final Image Recognition Project
 
 ---
 
@@ -380,10 +413,11 @@ It motivates me to continue documenting my AI learning journey and building more
 
 # 🚀 Future Vision
 
-The goal of this project is to transform this learning repository into a complete Computer Vision portfolio containing:
+The goal of this project is to transform this repository into a complete Computer Vision portfolio containing:
 
-- AI image recognition systems
-- Deep learning models
-- CNN-based applications
-- Real-world Computer Vision projects
-- End-to-end AI solutions
+- AI Image Recognition Systems
+- Image Segmentation Applications
+- Deep Learning Models
+- CNN-based Computer Vision Applications
+- Real-world Computer Vision Projects
+- End-to-End AI Solutions
