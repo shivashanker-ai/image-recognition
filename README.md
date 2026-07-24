@@ -1,52 +1,50 @@
 # 🖼️ AI Image Recognition
 
-> A hands-on Computer Vision project documenting my journey from image fundamentals to building AI-powered image recognition systems using **Python, OpenCV, NumPy, and TensorFlow**.
+> A structured Computer Vision project documenting my journey from image fundamentals to building AI-powered Image Recognition systems using **Python, OpenCV, NumPy, and TensorFlow**.
 
 ---
 
 # 📖 About the Project
 
-This repository is a structured learning project focused on **Computer Vision** and **Artificial Intelligence**.
+This repository is a structured Computer Vision learning project focused on building a strong foundation in Artificial Intelligence and Deep Learning.
 
-The goal is not only to learn the theory but also to implement every concept through practical Python programs using OpenCV, NumPy, and TensorFlow.
+Instead of only learning theory, every concept is implemented through practical Python programs using OpenCV, NumPy, and TensorFlow.
 
-Every module builds upon the previous one, gradually progressing from image fundamentals to deep learning and real-world AI applications.
+The project follows a step-by-step roadmap starting from digital images and image processing, progressing toward feature detection, deep learning, convolutional neural networks (CNNs), and finally real-world AI image recognition systems.
 
-This repository documents my journey of learning Computer Vision step-by-step while building a strong foundation for becoming an AI Engineer.
+This repository represents my continuous learning journey while developing industry-level Computer Vision skills.
 
 ---
 
 # 🎯 Project Goals
 
-- Learn how computers understand digital images
-- Understand image representation and pixel data
-- Master NumPy for image manipulation
-- Build a strong foundation in OpenCV
-- Learn image preprocessing techniques
-- Understand image transformations
-- Master image filtering techniques
-- Learn feature detection and feature matching
-- Understand image segmentation
-- Build AI models using TensorFlow
-- Learn Convolutional Neural Networks (CNNs)
-- Develop real-world Computer Vision projects
-- Practice professional Git & GitHub workflow
+- Understand Digital Images and Pixels
+- Master NumPy for Image Processing
+- Learn OpenCV from Beginner to Advanced
+- Build strong Image Processing fundamentals
+- Master Image Transformations
+- Learn Image Filtering techniques
+- Understand Feature Detection & Feature Matching
+- Learn Deep Learning using TensorFlow
+- Build Convolutional Neural Networks (CNNs)
+- Develop Real-world AI Image Recognition Systems
+- Practice Professional Git & GitHub Workflow
 
 ---
 
 # 🚀 Features
 
-- Step-by-step Computer Vision roadmap
-- Beginner-friendly explanations
-- Practical Python implementations
-- OpenCV image processing examples
-- NumPy-based image manipulation
-- Feature Detection techniques
+- Step-by-step Computer Vision Roadmap
+- Beginner Friendly Code
+- Practical Python Implementations
+- Well Structured Learning Modules
+- OpenCV Projects
+- TensorFlow Fundamentals
+- Deep Learning Basics
+- Feature Detection & Matching
 - Image Recognition using ORB
-- Real-world Computer Vision concepts
-- Clean project organization
-- Continuous GitHub updates
-- Learning journey documented publicly
+- Clean Project Organization
+- Public Learning Journey
 
 ---
 
@@ -103,7 +101,7 @@ This repository documents my journey of learning Computer Vision step-by-step wh
 - Image Cropping
 - Color Space Conversion
 
-Concepts:
+### Concepts
 
 - BGR
 - RGB
@@ -116,10 +114,9 @@ Concepts:
 ### Topics Covered
 
 - Introduction to Image Processing
-- Image Filtering
 - Binary Thresholding
 - Adaptive Thresholding
-- Image Histogram
+- Histogram
 - Image Blurring
 - Image Sharpening
 - Morphological Operations
@@ -137,7 +134,7 @@ Concepts:
 - Image Flipping
 - Affine Transformation
 - Perspective Transformation
-- Mini Project – Image Transformation Studio
+- Image Transformation Mini Project
 
 ---
 
@@ -151,9 +148,9 @@ Concepts:
 - Gaussian Filter
 - Median Filter
 - Bilateral Filter
-- Edge Detection
+- Sobel Edge Detection
 - Canny Edge Detection
-- Complete Image Filtering Pipeline
+- Image Filtering Pipeline
 
 ---
 
@@ -168,23 +165,37 @@ Concepts:
 - ORB Feature Detection
 - Feature Matching
 - Image Recognition using ORB
-- Complete Feature Detection Pipeline
+- Feature Detection Pipeline
 
-Concepts:
+### Concepts
 
 - Keypoints
 - Descriptors
-- Hamming Distance
 - Brute Force Matcher
+- Hamming Distance
 - Feature Matching
+
+---
+
+## ✅ Module 8 – Deep Learning with TensorFlow
+
+### Topics Covered
+
+- Introduction to Deep Learning
+- Introduction to TensorFlow
+- Understanding Tensors
+- Tensor Operations
+- TensorFlow Variables
+- TensorFlow Mathematical Operations
+- Building Your First Neural Network
+- Saving & Loading TensorFlow Models
 
 ---
 
 # 🚧 Upcoming Modules
 
-- ⏳ Module 8 – Image Segmentation
-- ⏳ Module 9 – Deep Learning for Computer Vision
-- ⏳ Module 10 – Final Image Recognition Project
+- ⏳ Module 9 – Convolutional Neural Networks (CNNs)
+- ⏳ Module 10 – Final AI Image Recognition Project
 
 ---
 
@@ -211,6 +222,9 @@ image-recognition/
 │   ├── flower.jpg
 │   └── flower2.jpg
 │
+├── models/
+│   └── my_first_model.keras
+│
 ├── src/
 │   ├── module1_image_fundamentals/
 │   ├── module2_numpy/
@@ -218,7 +232,8 @@ image-recognition/
 │   ├── module4_image_processing/
 │   ├── module5_image_transformations/
 │   ├── module6_image_filtering/
-│   └── module7_feature_detection/
+│   ├── module7_feature_detection/
+│   └── module8_deep_learning_tensorflow/
 │
 ├── main.py
 ├── requirements.txt
@@ -230,25 +245,25 @@ image-recognition/
 
 # ⚙️ Installation
 
-## Clone the Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/shivashanker-ai/image-recognition.git
 ```
 
-## Navigate to the Project
+## Enter Project Folder
 
 ```bash
 cd image-recognition
 ```
 
-## Create a Virtual Environment
+## Create Virtual Environment
 
 ```bash
 python -m venv .venv
 ```
 
-## Activate Virtual Environment
+## Activate Environment
 
 ### Windows PowerShell
 
@@ -256,7 +271,7 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-### Windows Command Prompt
+### Windows CMD
 
 ```cmd
 .venv\Scripts\activate.bat
@@ -268,7 +283,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## Run the Project
+## Run
 
 ```bash
 python main.py
@@ -283,12 +298,9 @@ python main.py
 - TensorFlow
 - Matplotlib
 - Pillow
-
----
-
 # 📈 Project Progress
 
-**Progress: 70% Complete (7/10 Modules)**
+**Progress: 80% Complete (8/10 Modules)**
 
 ### ✅ Completed
 
@@ -299,87 +311,96 @@ python main.py
 - Module 5 – Image Transformations
 - Module 6 – Image Filtering
 - Module 7 – Feature Detection
+- Module 8 – Deep Learning with TensorFlow
 
 ### ⏳ Upcoming
 
-- Module 8 – Image Segmentation
-- Module 9 – Deep Learning for Computer Vision
-- Module 10 – Final Image Recognition Project
+- Module 9 – Convolutional Neural Networks (CNNs)
+- Module 10 – Final AI Image Recognition Project
 
 ---
 
 # 💡 Skills Demonstrated
 
+Throughout this project, I have gained hands-on experience in:
+
 - Python Programming
 - NumPy
 - OpenCV
+- TensorFlow
+- Computer Vision
 - Image Processing
 - Image Transformations
 - Image Filtering
 - Feature Detection
 - Feature Matching
 - Image Recognition
-- Computer Vision
-- Git & GitHub
-- Software Development Workflow
+- Deep Learning Fundamentals
+- Neural Networks
+- Tensor Operations
+- Git & GitHub Workflow
+- Software Development Best Practices
 
 ---
 
 # 🎯 Learning Outcomes
 
-Through this project I am gaining practical experience in:
+Through this project I am developing practical experience in:
 
-- Computer Vision
 - Digital Image Processing
+- Computer Vision
 - OpenCV
 - NumPy
-- Image Processing
-- Image Transformations
-- Image Filtering
-- Feature Detection
+- TensorFlow
+- Deep Learning Fundamentals
+- Neural Networks
+- Image Preprocessing
+- Feature Extraction
 - Feature Matching
 - Image Recognition
-- TensorFlow
-- Deep Learning
+- Artificial Intelligence
 - Python Programming
-- Git & GitHub Workflow
+- Git & GitHub
+- Professional Project Organization
 
 ---
 
 # 📌 Repository Roadmap
 
-✔ Image Fundamentals
+✅ Image Fundamentals
 
-✔ NumPy for Images
+✅ NumPy for Images
 
-✔ OpenCV Basics
+✅ OpenCV Basics
 
-✔ Image Processing
+✅ Image Processing
 
-✔ Image Transformations
+✅ Image Transformations
 
-✔ Image Filtering
+✅ Image Filtering
 
-✔ Feature Detection
+✅ Feature Detection
 
-⬜ Image Segmentation
+✅ Deep Learning with TensorFlow
 
-⬜ Deep Learning for Computer Vision
+⬜ Convolutional Neural Networks (CNNs)
 
-⬜ Final Image Recognition Project
+⬜ Final AI Image Recognition Project
 
 ---
 
 # 🔄 Development Workflow
 
-This project follows a continuous learning and development workflow:
+This repository follows a structured learning and development workflow:
 
-1. Learn Computer Vision concepts
-2. Implement concepts using Python
-3. Test and improve programs
-4. Document learning progress
-5. Commit changes using Git
-6. Push updates to GitHub
+1. Learn the Computer Vision concept
+2. Implement it using Python
+3. Practice with OpenCV and TensorFlow
+4. Test and improve the implementation
+5. Document the learning progress
+6. Commit changes using Git
+7. Push updates to GitHub
+8. Continue building the next module
 
 ---
 
@@ -389,13 +410,21 @@ This repository is primarily a personal learning project.
 
 Suggestions, improvements, and constructive feedback are always welcome.
 
+If you have ideas for improving the code structure, project organization, or Computer Vision implementations, feel free to open an issue or submit a pull request.
+
 ---
 
 # 👨‍💻 Author
 
 **Shiva Shanker**
 
-Aspiring AI Engineer passionate about Computer Vision, Deep Learning, and Artificial Intelligence.
+Aspiring AI Engineer passionate about:
+
+- Computer Vision
+- Deep Learning
+- Artificial Intelligence
+- Machine Learning
+- Open Source Learning
 
 GitHub:
 
@@ -407,17 +436,35 @@ https://github.com/shivashanker-ai
 
 If you found this repository useful or interesting, consider giving it a ⭐.
 
-It motivates me to continue documenting my AI learning journey and building more open-source projects.
+It motivates me to continue learning, building AI projects, and documenting my journey publicly.
 
 ---
 
 # 🚀 Future Vision
 
-The goal of this project is to transform this repository into a complete Computer Vision portfolio containing:
+The long-term goal of this repository is to evolve into a complete Computer Vision portfolio featuring:
 
 - AI Image Recognition Systems
-- Image Segmentation Applications
-- Deep Learning Models
-- CNN-based Computer Vision Applications
-- Real-world Computer Vision Projects
+- Deep Learning Applications
+- CNN-based Image Classification
+- Object Detection Projects
+- Image Segmentation
+- Transfer Learning
+- Real-world Computer Vision Applications
 - End-to-End AI Solutions
+
+Ultimately, this repository will showcase my progression from Computer Vision fundamentals to building production-ready AI systems.
+
+---
+
+## 📌 Current Status
+
+**Modules Completed:** **8 / 10**
+
+**Current Focus:** Convolutional Neural Networks (CNNs)
+
+**Next Milestone:** Build an Image Classification Model using TensorFlow and CNNs.
+
+---
+
+> *"Learning by building, improving one module at a time."* 🚀
