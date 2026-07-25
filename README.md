@@ -10,9 +10,9 @@ This repository is a structured Computer Vision learning project focused on buil
 
 Instead of only learning theory, every concept is implemented through practical Python programs using OpenCV, NumPy, and TensorFlow.
 
-The project follows a step-by-step roadmap starting from digital images and image processing, progressing toward feature detection, deep learning, convolutional neural networks (CNNs), and finally real-world AI image recognition systems.
+The project follows a step-by-step roadmap starting from digital images and image processing, progressing toward feature detection, Deep Learning, Convolutional Neural Networks (CNNs), and finally real-world AI image recognition systems.
 
-This repository represents my continuous learning journey while developing industry-level Computer Vision skills.
+This repository represents my continuous learning journey while developing industry-level Computer Vision and Deep Learning skills.
 
 ---
 
@@ -40,7 +40,8 @@ This repository represents my continuous learning journey while developing indus
 - Well Structured Learning Modules
 - OpenCV Projects
 - TensorFlow Fundamentals
-- Deep Learning Basics
+- Convolutional Neural Networks
+- Image Classification
 - Feature Detection & Matching
 - Image Recognition using ORB
 - Clean Project Organization
@@ -192,9 +193,25 @@ This repository represents my continuous learning journey while developing indus
 
 ---
 
-# 🚧 Upcoming Modules
+## ✅ Module 9 – Convolutional Neural Networks (CNNs)
 
-- ⏳ Module 9 – Convolutional Neural Networks (CNNs)
+### Topics Covered
+
+- Introduction to CNNs
+- Convolution Layer
+- Pooling Layer
+- Activation Functions
+- Flatten Layer
+- Dense Layer
+- CNN Architecture
+- Training a CNN
+- Image Classification
+- CNN Mini Project
+
+---
+
+# 🚧 Upcoming Module
+
 - ⏳ Module 10 – Final AI Image Recognition Project
 
 ---
@@ -205,6 +222,7 @@ This repository represents my continuous learning journey while developing indus
 - NumPy
 - OpenCV
 - TensorFlow
+- Keras
 - Matplotlib
 - Pillow
 - Git
@@ -233,14 +251,14 @@ image-recognition/
 │   ├── module5_image_transformations/
 │   ├── module6_image_filtering/
 │   ├── module7_feature_detection/
-│   └── module8_deep_learning_tensorflow/
+│   ├── module8_deep_learning_tensorflow/
+│   └── module9_convolutional_neural_networks/
 │
 ├── main.py
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
-
 ---
 
 # ⚙️ Installation
@@ -296,11 +314,15 @@ python main.py
 - OpenCV
 - NumPy
 - TensorFlow
+- Keras
 - Matplotlib
 - Pillow
+
+---
+
 # 📈 Project Progress
 
-**Progress: 80% Complete (8/10 Modules)**
+**Progress: 90% Complete (9/10 Modules)**
 
 ### ✅ Completed
 
@@ -312,10 +334,10 @@ python main.py
 - Module 6 – Image Filtering
 - Module 7 – Feature Detection
 - Module 8 – Deep Learning with TensorFlow
+- Module 9 – Convolutional Neural Networks (CNNs)
 
 ### ⏳ Upcoming
 
-- Module 9 – Convolutional Neural Networks (CNNs)
 - Module 10 – Final AI Image Recognition Project
 
 ---
@@ -328,15 +350,18 @@ Throughout this project, I have gained hands-on experience in:
 - NumPy
 - OpenCV
 - TensorFlow
+- Keras
 - Computer Vision
-- Image Processing
+- Digital Image Processing
 - Image Transformations
 - Image Filtering
 - Feature Detection
 - Feature Matching
 - Image Recognition
-- Deep Learning Fundamentals
+- Deep Learning
 - Neural Networks
+- Convolutional Neural Networks (CNNs)
+- Image Classification
 - Tensor Operations
 - Git & GitHub Workflow
 - Software Development Best Practices
@@ -352,12 +377,12 @@ Through this project I am developing practical experience in:
 - OpenCV
 - NumPy
 - TensorFlow
-- Deep Learning Fundamentals
+- Deep Learning
 - Neural Networks
+- Convolutional Neural Networks (CNNs)
 - Image Preprocessing
 - Feature Extraction
-- Feature Matching
-- Image Recognition
+- Image Classification
 - Artificial Intelligence
 - Python Programming
 - Git & GitHub
@@ -383,7 +408,7 @@ Through this project I am developing practical experience in:
 
 ✅ Deep Learning with TensorFlow
 
-⬜ Convolutional Neural Networks (CNNs)
+✅ Convolutional Neural Networks (CNNs)
 
 ⬜ Final AI Image Recognition Project
 
@@ -396,11 +421,12 @@ This repository follows a structured learning and development workflow:
 1. Learn the Computer Vision concept
 2. Implement it using Python
 3. Practice with OpenCV and TensorFlow
-4. Test and improve the implementation
-5. Document the learning progress
-6. Commit changes using Git
-7. Push updates to GitHub
-8. Continue building the next module
+4. Build Deep Learning and CNN models
+5. Test and improve the implementation
+6. Document the learning progress
+7. Commit changes using Git
+8. Push updates to GitHub
+9. Continue building the next module
 
 ---
 
@@ -426,7 +452,7 @@ Aspiring AI Engineer passionate about:
 - Machine Learning
 - Open Source Learning
 
-GitHub:
+**GitHub:**
 
 https://github.com/shivashanker-ai
 
@@ -445,9 +471,8 @@ It motivates me to continue learning, building AI projects, and documenting my j
 The long-term goal of this repository is to evolve into a complete Computer Vision portfolio featuring:
 
 - AI Image Recognition Systems
-- Deep Learning Applications
 - CNN-based Image Classification
-- Object Detection Projects
+- Object Detection
 - Image Segmentation
 - Transfer Learning
 - Real-world Computer Vision Applications
@@ -457,13 +482,13 @@ Ultimately, this repository will showcase my progression from Computer Vision fu
 
 ---
 
-## 📌 Current Status
+# 📌 Current Status
 
-**Modules Completed:** **8 / 10**
+**Modules Completed:** **9 / 10**
 
-**Current Focus:** Convolutional Neural Networks (CNNs)
+**Current Focus:** Final AI Image Recognition Project
 
-**Next Milestone:** Build an Image Classification Model using TensorFlow and CNNs.
+**Next Milestone:** Build and deploy a complete AI-powered Image Recognition system using TensorFlow, CNNs, and Computer Vision techniques.
 
 ---
 
