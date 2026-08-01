@@ -229,17 +229,22 @@ This repository showcases my practical understanding of Computer Vision, Deep Le
 # 📂 Project Structure
 
 ```text
+
+```text
 image-recognition/
 │
-├── dataset/
-│   ├── test/
+├── dataset/                 (Not included in GitHub - create locally)
+│   ├── train/
 │   │   ├── cat/
 │   │   └── dog/
-│   │
-│   ├── train/          (ignored in Git)
-│   └── validation/     (ignored in Git)
+│   ├── validation/
+│   │   ├── cat/
+│   │   └── dog/
+│   └── test/
+│       ├── cat/
+│       └── dog/
 │
-├── models/
+├── models/                  (Generated after training - not included)
 │
 ├── src/
 │   ├── module1_image_fundamentals/
@@ -257,6 +262,9 @@ image-recognition/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
+
+> **Note:** The dataset and trained model are intentionally excluded from this repository because they are too large for GitHub. Create the `dataset/` directory locally and place the required images before running the project.
 ```
 
 ---
