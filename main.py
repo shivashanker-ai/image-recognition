@@ -1,10 +1,5 @@
 import tensorflow as tf
 
-model=tf.keras.sequential([
-    tf.keras.layers.Dense(16, activation="relu", input_shape=(4,)),
-    tf.keras.layers.Dense(8, activation="relu",)
-    tf.keras.layers.Dense(3, activation="softmax")
-])
+model = tf.keras.models.load_model("models/cat_dog_cnn.keras")
 
 model.summary()
-print()
